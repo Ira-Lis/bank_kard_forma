@@ -58,6 +58,11 @@ input {
   /* outline-color: linear-gradient(#6348ff, #610595); */
   /* outline-color: linear-gradient(#e66465, #9198e5); */
 }
+/* input:focus {
+
+  background-image: linear-gradient(white, white),
+  linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+} */
 input::placeholder {
   font-family: "Space Grotesk", sans-serif;
   font-style: normal;
