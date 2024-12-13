@@ -52,12 +52,14 @@ input {
   line-height: 23px;
   color: #21092f;
   mix-blend-mode: normal;
- 
   margin-bottom: 26px;
   width: 100%;
+  outline-color: #610595;
+  /* outline-color: linear-gradient(#6348ff, #610595); */
+  /* outline-color: linear-gradient(#e66465, #9198e5); */
 }
 input::placeholder {
-     font-family: "Space Grotesk", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   opacity: 0.25;
@@ -94,16 +96,15 @@ button {
   border-radius: 8px;
 }
 
-input:active{
-background: #FFFFFF;
-border-radius: 8px;
-font-family: "Space Grotesk", sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 23px;
-color: #21092F;
-/* border: linear-gradient(28.96deg,#6348ff 0%, #610595 100%); */
-border: #e738a1;
+input:active {
+  background: #ffffff;
+  border-radius: 8px;
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #21092f;
+  border: #e738a1;
+  /* outline-color:linear-gradient(28.96deg,#6348ff 0%, #610595 100%);  */
 }
-
