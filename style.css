@@ -22,14 +22,14 @@ body {
   flex-grow: 1;
 }
 .container {
-  margin-top: 187px;
+  margin-block: 187px;
   margin-inline: auto;
   width: 1036px;
   height: 541px;
 }
 .kard {
-  width: 527px;
-  height: 541px;
+  width: 541px;
+  height: 527px;
   background-image: url(./images/bg-card-front_exp.png),
     url(./images/bg-card-back.png);
   background-repeat: no-repeat;
@@ -37,9 +37,8 @@ body {
 }
 form {
   width: 381px;
-  height: 352px;
+  min-height: 352px;
   margin: auto;
-  /* background-color: #cfc8c8; */
 }
 input {
   box-sizing: border-box;
